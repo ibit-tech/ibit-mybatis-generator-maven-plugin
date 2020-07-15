@@ -5,11 +5,11 @@
     <groupId>tech.ibit</groupId>
     <artifactId>ibit-mybatis-generator-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>ibit-mybatis-generator-maven-plugin</name>
-
     <url>http://maven.apache.org</url>
+    <description>ibit-mybatis generator maven plugin</description>
 
     <scm>
         <url>https://github.com/ibit-tech/ibit-mybatis-generator-maven-plugin</url>
@@ -35,13 +35,21 @@
         </developer>
     </developers>
 
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <gpg.skip>false</gpg.skip>
-        <ibit-mybatis-generator.version>2.1-SNAPSHOT</ibit-mybatis-generator.version>
+        <ibit-mybatis-generator.version>2.1</ibit-mybatis-generator.version>
     </properties>
 
     <dependencies>
@@ -112,8 +120,6 @@
                 </executions>
             </plugin>
         </plugins>
-
-
     </build>
     
 
